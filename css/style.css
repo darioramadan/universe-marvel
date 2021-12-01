@@ -633,7 +633,7 @@ input{
     .section-character{
         display: inline-flex;
         flex-direction: row;
-                flex-wrap: wrap;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
 
