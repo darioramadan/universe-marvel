@@ -481,6 +481,36 @@ input{
         text-align: center;
     }
 
+    .title{
+        animation-name: title ;
+        animation-duration: 4s;
+        animation-delay:5s;
+        position: relative;
+    }
+
+    @keyframes title {
+        0%{color: 
+            #fefefe;
+        }
+        25%{
+            color: #fefefe;
+            left: 25%;
+        }
+        50%{
+            color: rgb(107, 9, 9);
+        }
+        75%{
+            color: #fefefe;
+        }
+        100%{
+            color: rgb(107, 9, 9);
+        }
+        125%{
+            color: #fefefe;
+        }
+    }
+
+
     label{
         font-size: 1.563rem;
     }
