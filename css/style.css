@@ -481,35 +481,31 @@ input{
         text-align: center;
     }
 
-    .title{
+    h1{
         animation-name: title ;
         animation-duration: 4s;
-        animation-delay:5s;
-        position: relative;
+        animation-delay: 1s;
+        animation-timing-function: ease-out;
+        animation-iteration-count: infinite;
     }
 
     @keyframes title {
-        0%{color: 
-            #fefefe;
+        0%{color: #fefefe;
         }
         25%{
-            color: #fefefe;
-            left: 25%;
+            color: rgb(107, 9, 9);
+            font-size: 65px;
         }
         50%{
-            color: rgb(107, 9, 9);
-        }
-        75%{
             color: #fefefe;
         }
-        100%{
+        75%{
             color: rgb(107, 9, 9);
         }
-        125%{
+        100%{
             color: #fefefe;
         }
     }
-
 
     label{
         font-size: 1.563rem;
