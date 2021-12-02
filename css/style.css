@@ -160,10 +160,20 @@ textarea{
     resize: none;
 }
 
-input{
-    font-size: 1.063rem;
+.flex-form{
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
 }
 
+.btn{
+    font-size: 25px;
+}
+
+.btn:hover{
+    font-size: 32px;
+}
 
 /* creators */
 
@@ -494,7 +504,6 @@ input{
         }
         25%{
             color: rgb(107, 9, 9);
-            font-size: 65px;
         }
         50%{
             color: #fefefe;
