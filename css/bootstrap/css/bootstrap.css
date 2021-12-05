@@ -2715,12 +2715,14 @@ textarea.form-control-lg {
 
 .input-group {
   margin-top: 25px;
-  padding: 0 32px;
+  padding: 0 16px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   width: 100%;
+  padding: 0 32px;
+
 }
 .input-group > .form-control,
 .input-group > .form-select {

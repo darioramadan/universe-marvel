@@ -54,7 +54,7 @@ footer ul li{
 
 .logo{
     display: flex;
-    width: 12.5rem;
+    width: 100px;
     height: 100%;
     align-self: center;
     justify-content: center;
@@ -442,6 +442,7 @@ textarea{
         background-color: #202020a1;
         justify-content: space-around;
         align-items: center;
+
     }
 
     .navegacion ul {
@@ -491,7 +492,7 @@ textarea{
         text-align: center;
     }
 
-    h1{
+    /*h1{
         animation-name: title ;
         animation-duration: 4s;
         animation-delay: 1s;
@@ -514,7 +515,7 @@ textarea{
         100%{
             color: #fefefe;
         }
-    }
+    }*/
 
     label{
         font-size: 1.563rem;
