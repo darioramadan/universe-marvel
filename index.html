@@ -51,11 +51,12 @@
                     </div>
                     <div class="flex-form">
                         <label for="email"></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" id="email" placeholder="Correo electronico">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" id="email" placeholder="Correo electronico" required>
                     </div>
                     <div class="flex-form">
-                        <label for="personaje"><!-- Select your favorite character --></label>
-                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <label for="personaje"></label>
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+                            <option value="">Selecciona tu personaje favorito</option>
                             <option value="">Iron Man</option>
                             <option value="">Capitan America</option>
                             <option value="">Thor</option>
@@ -67,22 +68,22 @@
                         </select>
                     </div>
                     <div>
-                        <label for="age">Age range: </label>
-                        <label for="age">14-20</label>
-                        <input type="radio" name="age" id="age" class="form-check-input">
-                        <label for="age">21-30</label>
-                        <input type="radio" name="age" id="age" class="form-check-input">
-                        <label for="age">31-40</label>
-                        <input type="radio" name="age" id="age" class="form-check-input">
-                        <label for="age">41-60</label>
-                        <input type="radio" name="age" id="age" class="form-check-input">
-                        <label for="age">+60</label>
-                        <input type="radio" name="age" id="age" class="form-check-input">
+                        <div class="flex-form">
+                        <label for="personaje"></label>
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+                            <option value="">Selecciona tu edad...</option>
+                            <option value="">14-20</option>
+                            <option value="">21-30</option>
+                            <option value="">31-40</option>
+                            <option value="">41-60</option>
+                            <option value="">+60</option>
+                        </select>
+                        </div>
                     </div>
-                    <div>
-                        <label for="comentarios">Leave us your comment!</label>
-                        <textarea name="comentarios" placeholder="Comentarios"></textarea>
-                    </div>
+                        <div class="input-group">
+                            <label for="comentarios"></label>
+                            <textarea name="comentarios" class="form-control" aria-label="With textarea" placeholder="Leave us your comment!"></textarea>
+                        </div>
                     <div>
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked required>
                         <label class="form-check-label" for="flexCheckChecked">
@@ -90,8 +91,7 @@
                         </label>
                     </div>
                     <div>
-                        <button type="button" class="btn btn-danger">Send</button>
-                        <button type="button" class="btn btn-dark">Restore</button>
+                        <button type="sumbit" class="btn btn-danger">Send</button>
                     </div>
                 </form>
             </section>
