@@ -419,7 +419,7 @@ textarea{
 
     .logo{
         display: flex;
-        width: 12.5rem;
+        width: 100px;
         height: 100%;
         align-self: center;
     }
