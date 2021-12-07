@@ -47,9 +47,8 @@ footer ul li{
 /* clases generales */
 
 .encabezado{
-    background-color: #2020202f;
+    position: sticky;
     top: 0;
-    z-index: 2;
 }
 
 .logo{
@@ -58,32 +57,6 @@ footer ul li{
     height: 100%;
     align-self: center;
     justify-content: center;
-}
-
-
-.navegacion{
-    display: flex;
-    flex-flow: column wrap;
-    font-weight: bold;
-    background-color: #202020a1;
-    justify-content: center;
-    align-items: center;
-}
-
-.navegacion ul {
-    list-style: none;
-}
-
-.menu li{
-    display:  block;
-    text-align: center;
-}
-
-.menu li a {
-    padding: 0.93rem 1.25rem;
-    color: #fefefe;
-    text-decoration: none;
-    font-size: 2.18rem;
 }
 
 .logo-footer{
@@ -150,127 +123,6 @@ footer ul li{
     text-align: start;
     padding: 16px;
     background-color: #202020;
-}
-
-label{
-    font-size: 1.563rem;
-}
-
-textarea{
-    resize: none;
-}
-
-.flex-form{
-    /*display: flex;*/
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 32px;
-}
-
-.btn{
-    font-size: 25px;
-}
-
-.btn:hover{
-    font-size: 32px;
-}
-
-/* creators */
-
-.display-all-div{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px;
-    text-align: start;
-}
-
-.h1-creator{
-    text-align: center;
-    text-decoration: underline;
-}
-
-.martin{
-    background-color: #7d7abcbb;
-    display: flex;
-    flex-direction: column;
-}
-
-.martin, .stan, .steve, .jack, .joe h2{
-    text-align: center;
-    padding: 32px;
-}
-
-.img-martin{
-    width: 250px;
-    justify-content: flex-end;
-    margin-right: 1.25rem;
-    margin-bottom: 1.25rem;
-    height: 100%;
-    margin-left: 16px;
-}
-
-.stan{
-    background-color: #D7263Dbb;
-    display: flex;
-    flex-direction: column;
-}
-
-.img-stan{
-    width: 250px;
-    justify-content: flex-end;
-    margin-right: 1.25rem;
-    margin-bottom: 1.25rem;
-    height: 100%;
-    margin-left: 16px;
-}
-
-.steve{
-    background-color: #5DD39Ebb;
-    color: black;
-    display: flex;
-    flex-direction: column;
-}
-
-.img-steve{
-    width: 250px;
-    justify-content: flex-end;
-    margin-right: 1.25rem;
-    margin-bottom: 1.25rem;
-    height: 100%;
-    margin-left: 16px;
-}
-
-.jack{
-    background-color: #A3CEF1bb;
-    color: black; 
-    display: flex;
-    flex-direction: column;
-}
-
-.img-jack{
-    width: 250px;
-    justify-content: flex-end;
-    margin-right: 1.25rem;
-    margin-bottom: 1.25rem;
-    height: 100%;
-    margin-left: 16px;
-}
-
-.joe{
-    background-color: #02182Bbb;
-    display: flex;
-    flex-direction: column;
-}
-
-.img-joe{
-    width: 200px;
-    justify-content: flex-end;
-    margin-right: 1.25rem;
-    margin-bottom: 1.25rem;
-    height: 100%;
-    margin-left: 16px;
 }
 
 
@@ -407,16 +259,6 @@ textarea{
 
 @media screen and (min-width: 768px){
 
-    /*Nav*/
-    .encabezado{
-        background-color: #2020202f;
-        position: sticky;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        z-index: 2;
-    }
-
     .logo{
         display: flex;
         width: 100px;
@@ -433,40 +275,6 @@ textarea{
         color: rgb(107, 9, 9);
     }
 
-    .navegacion{
-        display: flex;
-        flex-flow: row wrap;
-        width: auto;
-        height: 100%;
-        font-weight: bold;
-        background-color: #202020a1;
-        justify-content: space-around;
-        align-items: center;
-
-    }
-
-    .navegacion ul {
-        list-style: none;
-    }
-
-    .menu li{
-        display: inline-flex;
-    }
-
-    .menu li a {
-        padding: 0.93rem 1.25rem;
-        color: #fefefe;
-        text-decoration: none;
-        font-size: 2.18rem;
-    }
-
-    .menu a:hover{
-        background-color: #151515;
-        transform: scale(.9);
-        transition: .3s;
-
-        border-bottom: solid rgb(107, 9, 9);
-    }
     .imagen-fondo{
         background-image: url(../images/recursos/fondo1.jpg);
         background-repeat: no-repeat;
@@ -490,48 +298,23 @@ textarea{
 
     .section-form{
         text-align: center;
-    }
-
-    /*h1{
-        animation-name: title ;
-        animation-duration: 4s;
-        animation-delay: 1s;
-        animation-timing-function: ease-out;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes title {
-        0%{color: #fefefe;
-        }
-        25%{
-            color: rgb(107, 9, 9);
-        }
-        50%{
-            color: #fefefe;
-        }
-        75%{
-            color: rgb(107, 9, 9);
-        }
-        100%{
-            color: #fefefe;
-        }
-    }*/
-
-    label{
-        font-size: 1.563rem;
-    }
-
-    form{
         background-color: #202020;
     }
 
-    textarea{
-        resize: none;
+    .flex-form{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
     }
 
-    input{
-        font-size: 1.063rem;
+    .btn{
+    font-size: 25px;
     }
+
+    .btn:hover{
+    font-size: 32px;
+    }
+
     .footer{
         display: flex;
         justify-content: space-around;
@@ -552,101 +335,6 @@ textarea{
         background-color: rgba(216, 212, 212, 0.048);
         width: auto;
         height: auto;
-    }
-
-    /*Creators*/
-    .display-all-div{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-direction: row-reverse;
-    }
-
-    .h1-creator{
-        text-align: center;
-        text-decoration: underline;
-    }
-
-    .martin{
-        background-color: #7d7abcbb;
-        display: inline-block;
-        margin: 8px;
-    }
-
-    .martin, .stan, .steve, .jack, .joe h2{
-        text-align: start;
-        padding: 32px;
-    }
-
-    .img-martin{
-        width: 37.5rem;
-        justify-content: flex-end;
-        margin-right: 1.25rem;
-        margin-bottom: 1.25rem;
-        height: 100%;
-        margin-left: 16px;
-    }
-
-    .stan{
-        background-color: #D7263Dbb;
-        display: inline-block;
-        margin: 0.5rem;
-    }
-
-    .img-stan{
-        width: 37.5rem;
-        justify-content: flex-end;
-        margin-right: 1.25rem;
-        margin-bottom: 1.25rem;
-        height: 100%;
-        margin-left: 16px;
-    }
-
-    .steve{
-        background-color: #5DD39Ebb;
-        color: black;
-        display: inline-block;
-        margin: 8px;
-    }
-
-    .img-steve{
-        width: 37.5rem;
-        justify-content: flex-end;
-        margin-right: 1.25rem;
-        margin-bottom: 1.25rem;
-        height: 100%;
-        margin-left: 16px;
-    }
-
-    .jack{
-        background-color: #A3CEF1bb;
-        color: black; 
-        display: inline-block;
-        margin: 8px;
-    }
-
-    .img-jack{
-        width: 37.5rem;
-        justify-content: flex-end;
-        margin-right: 1.25rem;
-        margin-bottom: 1.25rem;
-        height: 100%;
-        margin-left: 16px;
-    }
-
-    .joe{
-        background-color: #02182Bbb;
-        display: inline-block;
-        margin: 8px;
-    }
-
-    .img-joe{
-        width: 37.5rem;
-        justify-content: flex-end;
-        margin-right: 1.25rem;
-        margin-bottom: 1.25rem;
-        height: 100%;
-        margin-left: 16px;
     }
 
     /*films*/
