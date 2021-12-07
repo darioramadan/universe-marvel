@@ -46,6 +46,11 @@ footer ul li{
 
 /* clases generales */
 
+.encabezado{
+    position: sticky;
+    top: 0;
+}
+
 .logo{
     display: flex;
     width: 100px;
@@ -120,12 +125,6 @@ footer ul li{
     background-color: #202020;
 }
 
-/* creators */
-
-.h1-creator{
-    text-align: center;
-    text-decoration: underline;
-}
 
 /* characters */
 
@@ -338,11 +337,6 @@ footer ul li{
         height: auto;
     }
 
-    /*Creators*/
-    .h1-creator{
-        text-align: center;
-        text-decoration: underline;
-    }
     /*films*/
 
     .conteiner-all-films iframe{

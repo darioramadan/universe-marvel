@@ -4011,6 +4011,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
+  position: fixed;
   font-size: 32px;
   position: relative;
   display: flex;
