@@ -1,0 +1,28 @@
+footer ul{
+    list-style: none;
+}
+
+/* clases generales */
+
+.logo-footer{
+    display: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020a1;
+
+    .menu-footer{
+        list-style:none;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        
+        li{
+            align-self: center;
+            margin: 1rem;
+        }
+    }
+}

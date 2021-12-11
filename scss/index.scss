@@ -1,0 +1,28 @@
+.imagen-fondo{
+    background-image: url(../images/recursos/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 10rem;
+}
+
+.imagen-fondo-dos{
+    background-image: url(../images/recursos/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 10rem;
+}
+
+.article-index{
+    padding: 3.125rem;
+    margin: auto;
+    background-color: #151515d7;
+}
+
+.section-form{
+    text-align: start;
+    padding: 16px;
+}

@@ -1,0 +1,36 @@
+.conteiner-all-films{
+    h2{
+    text-decoration: underline;
+    }
+
+    iframe{
+        width: 350px;
+        height: 200px;
+    }
+
+    .article-films{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding: 50px;
+
+        .article-p-films{
+            text-align: center;
+        }
+    }
+    .article-spiderman{
+        background-color: #b61111ad;
+    }
+
+    .article-venom{
+        background-color: #000000ad;
+    }
+
+    .article-eternals{
+        background-color: #050552ad;
+    }
+    
+    .article-black-widow{
+        background-color: #dc143cad;
+    }
+}

@@ -1,1 +1,31 @@
-// probando
+@import "general";
+@import "header";
+@import "footer";
+@import "index";
+@import "character";
+@import "films";
+@import "news";
+@import "mediaqueries";
+
+
+h1{
+    font-size: 2.813rem;
+}
+
+h2{
+    font-size: 2.313rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.688rem;
+}
+
+.fondo-body{
+    background-image: url(../images/recursos/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

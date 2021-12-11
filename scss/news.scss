@@ -1,0 +1,23 @@
+.section-first{
+    margin: 32px 0;
+
+    .conteiner-all-news{
+        display: flex;
+        flex-flow: column;
+
+        .new{
+            background-color: #000000ad;
+            display: flex;
+            flex-direction: column;
+            padding: 32px;
+            font-size: 32px;
+
+            h3{
+                text-align: center;
+                margin-bottom: 10px;
+                font-size: 48px;
+                background-color: rgba(117, 21, 21, 0.438);
+            }
+        }
+    }
+}
