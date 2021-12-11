@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
 
     .logo:hover{
         transform: scale(.8);
@@ -70,6 +70,12 @@
         flex-direction: column;
         padding: 32px;
         font-size: 32px;
+
+        h3:hover{
+            text-decoration: underline;
+            transition: .3s;
+            cursor: pointer;
+        }
     }
 
     .new h3:hover{
@@ -82,25 +88,11 @@
 
 
     .section-character{
-        display: inline-flex;
-        flex-direction: row;
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-
-    .section-article-img-character{
-        justify-content: space-around;
-        width: 12rem;
-        z-index: 0px;
-        filter: grayscale(100%);
-        transition: .5s;
     }
-  
-    .section-article-img-character:hover{
-        filter: grayscale(0%);
-        transform: scale(1.5) rotate(360deg);
-    }
-}
 
 @media screen and (max-width: 375px) {
     .section-article-img-character{
