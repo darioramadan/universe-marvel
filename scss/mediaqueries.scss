@@ -19,7 +19,7 @@
     .article-index{
         padding: 3.125rem;
         margin: auto;
-        background-color: #151515d7;
+        background-color: $color_principal;
     }
 
     .section-form{
@@ -42,7 +42,7 @@
     }
 
     .menu-footer-img:hover{
-        background-color: rgba(216, 212, 212, 0.048);
+        background-color: #d8d4d40c;
         width: auto;
         height: auto;
     }
