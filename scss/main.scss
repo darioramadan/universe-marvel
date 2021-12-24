@@ -10,7 +10,7 @@
 
 
 $enunciados-map: (
-    h1: 2.813em,
+    h1: 3em,
     h2: 2.313em,
     h3: 32px
 );
@@ -22,6 +22,7 @@ $h2: map-get($enunciados-map, h2);
 $h1: map-get($enunciados-map, h2);
 
 h1{
+    margin: $medidados;
     font-size: $h1;
     display: block;
     white-space: nowrap;
