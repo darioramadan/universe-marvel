@@ -211,10 +211,23 @@ footer ul {
         background-color: rgba(117, 21, 21, 0.438); }
 
 h1 {
-  font-size: 2.813rem; }
+  font-size: 2.313em;
+  display: block;
+  white-space: nowrap;
+  width: 16ch;
+  animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
+  overflow: hidden; }
+
+@keyframes typing {
+  from {
+    width: 0; } }
+
+@keyframes blink {
+  50% {
+    border-color: transparent; } }
 
 h2 {
-  font-size: 2.313rem; }
+  font-size: 2.313em; }
 
 h3 {
   font-size: 32px; }
