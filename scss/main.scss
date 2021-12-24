@@ -9,8 +9,20 @@
 @import "news";
 
 
+$enunciados-map: (
+    h1: 2.813em,
+    h2: 2.313em,
+    h3: 32px
+);
+
+$h1: map-get($enunciados-map, h1);
+
+$h2: map-get($enunciados-map, h2);
+
+$h1: map-get($enunciados-map, h2);
+
 h1{
-    font-size: 2.813rem;
+    font-size: $h1;
     display: block;
     white-space: nowrap;
     width: 16ch;
@@ -29,7 +41,7 @@ h1{
 }
 
 h2{
-    font-size: 2.313rem;
+    font-size: $h2;
 }
 
 h3{
