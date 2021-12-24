@@ -5,9 +5,7 @@
     transition: .3s; }
   .title:hover {
     color: #6b0909; }
-  .imagen-fondo {
-    height: 20rem; }
-  .imagen-fondo-dos {
+  .imagen-fondo, .imagen-fondo-dos {
     height: 20rem; }
   .article-index {
     padding: 3.125rem;
@@ -109,7 +107,7 @@ footer ul {
       align-self: center;
       margin: 16px; }
 
-.imagen-fondo {
+.imagen-fondo, .imagen-fondo-dos {
   background-image: url(../images/recursos/fondo1.jpg);
   background-repeat: no-repeat;
   background-position: center;

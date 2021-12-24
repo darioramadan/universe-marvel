@@ -14,7 +14,7 @@
     }
 
     .imagen-fondo-dos{
-       height: 20rem;
+       @extend .imagen-fondo;
     }
     .article-index{
         padding: 3.125rem;
