@@ -10,7 +10,7 @@
     align-self: center;
     justify-content: center;
     
-    .logo:hover{
+    &:hover{
         transform: scale(.8);
         transition: .3s;
     }

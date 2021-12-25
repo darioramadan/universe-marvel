@@ -80,7 +80,7 @@
     height: 100%;
     align-self: center;
     justify-content: center; }
-    .encabezado .logo .logo:hover {
+    .encabezado .logo:hover {
       transform: scale(0.8);
       transition: .3s; }
 
