@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&display=swap");
 @media screen and (max-width: 768px) {
-  .logo:hover {
-    transform: scale(0.8);
-    transition: .3s; }
-  .title:hover {
-    color: #6b0909; }
   .imagen-fondo, .imagen-fondo-dos {
     height: 20rem; }
   .article-index {
@@ -85,14 +80,14 @@
     height: 100%;
     align-self: center;
     justify-content: center; }
+    .encabezado .logo .logo:hover {
+      transform: scale(0.8);
+      transition: .3s; }
 
 footer ul {
   list-style: none; }
 
 /* clases generales */
-.logo-footer {
-  display: none; }
-
 .footer {
   display: flex;
   justify-content: center;
