@@ -17,6 +17,8 @@
     }
     .article-spiderman{
         background-image: url(../images/recursos/spidermanfondo.jpg);
+        background-size: cover;
+
         h2{
             background-color: #b61111ad;
             padding: 16px;
@@ -30,6 +32,7 @@
 
     .article-venom{
         background-image: url(../images/recursos/venomfondo.jpg);
+        background-size: cover;
         
         h2{
             background-color: #000000ad;

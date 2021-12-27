@@ -169,7 +169,8 @@
     text-align: center; }
 
 .conteiner-all-films .article-spiderman {
-  background-image: url(../images/recursos/spidermanfondo.jpg); }
+  background-image: url(../images/recursos/spidermanfondo.jpg);
+  background-size: cover; }
   .conteiner-all-films .article-spiderman h2 {
     background-color: #b61111ad;
     padding: 16px; }
@@ -179,7 +180,8 @@
     background-color: #b61111ad; }
 
 .conteiner-all-films .article-venom {
-  background-image: url(../images/recursos/venomfondo.jpg); }
+  background-image: url(../images/recursos/venomfondo.jpg);
+  background-size: cover; }
   .conteiner-all-films .article-venom h2 {
     background-color: #000000ad;
     padding: 16px; }
