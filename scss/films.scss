@@ -19,18 +19,30 @@
         }
     }
     .article-spiderman{
-        background-color: #b61111ad;
+        background-image: url(../images/recursos/spidermanfondo.jpg);
+        
+        font-weight: bold;
     }
 
     .article-venom{
-        background-color: #000000ad;
+        background-image: url(../images/recursos/venomfondo.jpg);
+        
+        font-weight: bold;
     }
 
     .article-eternals{
-        background-color: #050552ad;
+        color: black;
+        background-image: url(../images/recursos/eternalsfondo.jpeg);
+        background-size: cover;
+        
+        font-weight: bold;
+        
     }
     
     .article-black-widow{
-        background-color: #dc143cad;
+        background-image: url(../images/recursos/blackwidowsfondo.jpg);
+        background-size: cover;
+        color: black;
+        font-weight: bold;
     }
 }

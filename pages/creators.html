@@ -49,49 +49,55 @@
             </div>
         </nav>
     </header>
-        <h1>CREATORS</h1>
+        <h1 class="h1-animation">CREATORS</h1>
 
-        <!-- Carrousel -->
+        <!-- Acordion -->
     <section>
 
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Martin Goodman
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <img src="../images/fundador/goodman.jpg" class="d-block w-100 mh-50" alt="goodman">
+                      <h3>Martin Goodman</h3>
+                      <p><strong>Martin Goodman</strong> (born Moe Goodman; January 18, 1908 - June 6, 1992) was an American publisher of pulp magazines, paperback books, men's adventure magazines, and comic books, launching the company that would become Marvel Comics.</p>
+                </div>
+              </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../images/fundador/goodman.jpg" class="d-block w-100 mh-50" alt="goodman">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Martin Goodman</h3>
-                        <p><strong>Martin Goodman</strong> (born Moe Goodman; January 18, 1908 - June 6, 1992) was an American publisher of pulp magazines, paperback books, men's adventure magazines, and comic books, launching the company that would become Marvel Comics.</p>
-                    </div>
-                </div>  
-                <div class="carousel-item">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Stan Lee
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
                     <img src="../images/fundador/stanlee.jpg" class="d-block w-100 mh-50" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
                         <h3>Stan Lee</h3>
                         <p><strong>Stan Lee</strong> (born Stanley Martin Lieber; December 28, 1922 - November 12, 2018) was an American comic book writer, editor, publisher, and producer. He rose through the ranks of a family-run business called Timely Publications which would later become Marvel Comics' primary creative leader for two decades, leading its expansion from a small division of a publishing house to a multimedia corporation that dominated the comics and film industries.</p>
-                    </div>
                 </div>
-                <div class="carousel-item">
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Steve Ditko
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
                     <img src="../images/fundador/steveditko.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
                         <h3>Steve Ditko</h3>
                         <p><strong>Stephen J. Ditko</strong> was an American comics artist and writer best known as the artist and co-creator, with Stan Lee, of the Marvel Comics superheroes Spider-Man and Doctor Strange.</p>
-                    </div>
                 </div>
+              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+          </div>
 
         <!-- Footer -->
     <footer class="footer">

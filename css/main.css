@@ -84,9 +84,6 @@
       transform: scale(0.8);
       transition: .3s; }
 
-footer ul {
-  list-style: none; }
-
 /* clases generales */
 .footer {
   display: flex;
@@ -175,16 +172,24 @@ footer ul {
     text-align: center; }
 
 .conteiner-all-films .article-spiderman {
-  background-color: #b61111ad; }
+  background-image: url(../images/recursos/spidermanfondo.jpg);
+  font-weight: bold; }
 
 .conteiner-all-films .article-venom {
-  background-color: #000000ad; }
+  background-image: url(../images/recursos/venomfondo.jpg);
+  font-weight: bold; }
 
 .conteiner-all-films .article-eternals {
-  background-color: #050552ad; }
+  color: black;
+  background-image: url(../images/recursos/eternalsfondo.jpeg);
+  background-size: cover;
+  font-weight: bold; }
 
 .conteiner-all-films .article-black-widow {
-  background-color: #dc143cad; }
+  background-image: url(../images/recursos/blackwidowsfondo.jpg);
+  background-size: cover;
+  color: black;
+  font-weight: bold; }
 
 .section-first {
   margin: 32px 0; }
@@ -203,7 +208,14 @@ footer ul {
         font-size: 48px;
         background-color: rgba(117, 21, 21, 0.438); }
 
-h1 {
+p {
+  color: white;
+  font-weight: bold; }
+
+.accordion {
+  background-color: #212529; }
+
+.h1-animation {
   margin: 32px;
   font-size: 2.313em;
   display: block;
@@ -219,6 +231,9 @@ h1 {
 @keyframes blink {
   50% {
     border-color: transparent; } }
+
+h1 {
+  margin: 32px; }
 
 h2 {
   font-size: 2.313em; }
