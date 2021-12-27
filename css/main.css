@@ -156,9 +156,6 @@
       filter: grayscale(0%);
       transform: scale(1.5) rotate(360deg); }
 
-.conteiner-all-films h2 {
-  text-decoration: underline; }
-
 .conteiner-all-films iframe {
   width: 350px;
   height: 200px; }
@@ -172,28 +169,46 @@
     text-align: center; }
 
 .conteiner-all-films .article-spiderman {
-  background-image: url(../images/recursos/spidermanfondo.jpg);
-  font-weight: bold; }
+  background-image: url(../images/recursos/spidermanfondo.jpg); }
+  .conteiner-all-films .article-spiderman h2 {
+    background-color: #b61111ad;
+    padding: 16px; }
+  .conteiner-all-films .article-spiderman p {
+    padding: 16px;
+    font-weight: bold;
+    background-color: #b61111ad; }
 
 .conteiner-all-films .article-venom {
-  background-image: url(../images/recursos/venomfondo.jpg);
-  font-weight: bold; }
+  background-image: url(../images/recursos/venomfondo.jpg); }
+  .conteiner-all-films .article-venom h2 {
+    background-color: #000000ad;
+    padding: 16px; }
+  .conteiner-all-films .article-venom p {
+    padding: 16px;
+    font-weight: bold;
+    background-color: #000000ad; }
 
 .conteiner-all-films .article-eternals {
-  color: black;
   background-image: url(../images/recursos/eternalsfondo.jpeg);
   background-size: cover; }
+  .conteiner-all-films .article-eternals h2 {
+    background-color: #050552ad;
+    padding: 16px; }
   .conteiner-all-films .article-eternals p {
-    color: black;
-    font-weight: bold; }
+    padding: 16px;
+    font-weight: bold;
+    background-color: #050552ad; }
 
 .conteiner-all-films .article-black-widow {
   background-image: url(../images/recursos/blackwidowsfondo.jpg);
-  background-size: cover;
-  color: black; }
+  background-size: cover; }
+  .conteiner-all-films .article-black-widow h2 {
+    background-color: #dc143cad;
+    padding: 16px; }
   .conteiner-all-films .article-black-widow p {
-    color: black;
-    font-weight: bold; }
+    padding: 16px;
+    font-weight: bold;
+    background-color: #dc143cad; }
 
 .section-first {
   margin: 32px 0; }

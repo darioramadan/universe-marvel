@@ -1,7 +1,4 @@
 .conteiner-all-films{
-    h2{
-    text-decoration: underline;
-    }
 
     iframe{
         width: 350px;
@@ -20,24 +17,45 @@
     }
     .article-spiderman{
         background-image: url(../images/recursos/spidermanfondo.jpg);
-        
+        h2{
+            background-color: #b61111ad;
+            padding: 16px;
+        }
+        p{
+        padding: 16px;
         font-weight: bold;
+        background-color: #b61111ad;
+        }
     }
 
     .article-venom{
         background-image: url(../images/recursos/venomfondo.jpg);
         
-        font-weight: bold;
+        h2{
+            background-color: #000000ad;
+            padding: 16px;
+        }
+
+        p{
+            padding: 16px;
+            font-weight: bold;
+            background-color: #000000ad;
+        }
     }
 
     .article-eternals{
-        color: black;
         background-image: url(../images/recursos/eternalsfondo.jpeg);
         background-size: cover;
         
+        h2{
+            background-color: #050552ad;
+            padding: 16px;
+        }
+
         p{
-            color: black;
+            padding: 16px;
             font-weight: bold;
+            background-color: #050552ad;
         }
         
     }
@@ -45,10 +63,16 @@
     .article-black-widow{
         background-image: url(../images/recursos/blackwidowsfondo.jpg);
         background-size: cover;
-        color: black;
+
+        h2{
+            background-color: #dc143cad;
+            padding: 16px;
+        }
+
         p{
-            color: black;
+            padding: 16px;
             font-weight: bold;
+            background-color: #dc143cad;
         }
     }
 }
