@@ -182,14 +182,18 @@
 .conteiner-all-films .article-eternals {
   color: black;
   background-image: url(../images/recursos/eternalsfondo.jpeg);
-  background-size: cover;
-  font-weight: bold; }
+  background-size: cover; }
+  .conteiner-all-films .article-eternals p {
+    color: black;
+    font-weight: bold; }
 
 .conteiner-all-films .article-black-widow {
   background-image: url(../images/recursos/blackwidowsfondo.jpg);
   background-size: cover;
-  color: black;
-  font-weight: bold; }
+  color: black; }
+  .conteiner-all-films .article-black-widow p {
+    color: black;
+    font-weight: bold; }
 
 .section-first {
   margin: 32px 0; }

@@ -35,7 +35,10 @@
         background-image: url(../images/recursos/eternalsfondo.jpeg);
         background-size: cover;
         
-        font-weight: bold;
+        p{
+            color: black;
+            font-weight: bold;
+        }
         
     }
     
@@ -43,6 +46,9 @@
         background-image: url(../images/recursos/blackwidowsfondo.jpg);
         background-size: cover;
         color: black;
-        font-weight: bold;
+        p{
+            color: black;
+            font-weight: bold;
+        }
     }
 }
