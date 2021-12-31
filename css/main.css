@@ -190,17 +190,6 @@
     font-weight: bold;
     background-color: #000000ad; }
 
-.conteiner-all-films .article-eternals {
-  background-image: url(../images/recursos/eternalsfondo.jpeg);
-  background-size: cover; }
-  .conteiner-all-films .article-eternals h2 {
-    background-color: #050552ad;
-    padding: 16px; }
-  .conteiner-all-films .article-eternals p {
-    padding: 16px;
-    font-weight: bold;
-    background-color: #050552ad; }
-
 .conteiner-all-films .article-black-widow {
   background-image: url(../images/recursos/blackwidowsfondo.jpg);
   background-size: cover; }
